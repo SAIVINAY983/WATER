@@ -1,0 +1,62 @@
+ {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: orange; /* Set the background color of the entire page to orange */
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info {
+    padding-bottom: 20px;
+}
+
+.info h2 {
+    margin-top: 20px;
+}
+
+.info ul,
+.info ol {
+    padding-left: 20px;
+}
+
+.info ul li,
+.info ol li {
+    line-height: 1.6;
+}
+
+.images {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.images h2 {
+    margin-bottom: 10px;
+}
+
+.images img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjustments for blue background on info section */
+.info {
+    background-color: #3498db; /* Set background color of the info section to blue */
+    color: #fff; /* Set text color to white for better readability on blue background */
+}
